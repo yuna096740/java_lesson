@@ -10,7 +10,7 @@ class Person {
     
     System.out.println("身長は" + height + "mです");
     System.out.println("体重は" + weight + "kgです");
-    System.out.println("血液型は" + bloodType + "型です");
+    System.out.println("血液型は(" + bloodType + ")型です");
     
     double bmi = bmi(height, weight);
     System.out.println("BMIは" + Math.round(bmi) + "です");

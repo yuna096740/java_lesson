@@ -33,7 +33,7 @@ class App {
       System.out.print("体重(kg)：");
       double weight = scanner.nextDouble();
 
-      System.out.print("血液型(A,B,AB,O)");
+      System.out.print("血液型(A,B,AB,O):");
       String bloodType = scanner.next();
       
       Person.printData(name, age, height, weight, bloodType);
