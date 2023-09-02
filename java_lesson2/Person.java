@@ -58,10 +58,6 @@ public class Person {
     return this.weight / this.height / this.height;
   }
 
-  public static void printCount() {
-    System.out.println("合計" + Person.count + "人です");
-  }
-
   public void printData() {
     System.out.println("おっす！オラ" + this.fullName() + "てーんだ");
     System.out.println("としは" + this.age + "歳だぞ");
@@ -69,6 +65,8 @@ public class Person {
     System.out.println("仕事は" + this.job + "をやってっぞ");
     System.out.println("よろしくな！");
   }
-
-
+  
+  public static void printCount() {
+    System.out.println("自己紹介は計" + Person.count + "回です");
+  }
 }
