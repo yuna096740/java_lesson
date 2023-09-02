@@ -67,6 +67,6 @@ public class Person {
   }
   
   public static void printCount() {
-    System.out.println("自己紹介は計" + Person.count + "回です");
+    System.out.println("悟空の自己紹介は" + Person.count + "回目です");
   }
 }

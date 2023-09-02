@@ -15,5 +15,7 @@ public class Main {
     person2.setJob("");
     System.out.println("だけどまたチチに言われて仕事を" + person1.getJob() + "に変えたぞ");
     System.out.println("いくら強くなっても、チチにはかなわねーな！");
+
+    Person.printCount();
   }
 }
