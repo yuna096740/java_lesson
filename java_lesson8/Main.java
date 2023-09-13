@@ -7,6 +7,7 @@ public class Main {
     // algolithm.arrayLesson();
     // algolithm.arrayLesson2();
     // algolithm.arrayLesson3();
-    algolithm.arrayLesson4();
+    // algolithm.arrayLesson4();
+    algolithm.arrayLesson5();
   }
 }
