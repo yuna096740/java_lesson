@@ -5,6 +5,7 @@ public class Main {
     Algolithm algolithm = new Algolithm();
 
     // algolithm.arrayLesson();
-    algolithm.arrayLesson2();
+    // algolithm.arrayLesson2();
+    algolithm.arrayLesson3();
   }
 }
